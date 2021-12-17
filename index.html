@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+     <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+       <title>Document</title>
+</head>
+<body>
+  <nav class="#64b5f6 blue lighten-2"> 
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">DD Sports</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Home</a></li>
+        <li><a href="badges.html">Trending</a></li>
+        <li><a href="collapsible.html">IPL</a></li>
+        <li><a href="mobile.html">Hindi</a></li>
+      </ul>
+      
+       
+    </div>
+    
+  </nav>
+      
+  <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Home</a></li>
+        <li><a href="badges.html">Trending</a></li>
+        <li><a href="collapsible.html">IPL</a></li>
+        <li><a href="mobile.html">Hindi</a></li>
+    </ul>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>   
+ <script>
+    
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    
+  });
+
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+        
+  </script>
+</body>
+</html>                                                                                                 
